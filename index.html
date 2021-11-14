@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gary Walters Piano</title>
+    <style>
+      .button {
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+}
+      .button1 {background-color: #008CBA;} /* Blue */
+      .button2 {background-color: #4CAF50;} /* Green */
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center
+    }
+    img {
+      max-width: 100%
+    }
+    .image {
+      flex-basis: 35%
+    }
+    .text {
+      font-size: 20px;
+      padding-left: 25px;
+    }
+    .buttonStyle {
+      flex-basis: 100%
+    }
+  </style>
+</head>
+
+<h1>"<em><span style="color:#900C3F"><b>the COVID Sesssions</b></span></em>" - Sample Cuts</h1>
+
+  
+  <div class="container">
+    <div class="image">
+      <img src="https://m.media-amazon.com/images/I/71fVkbf2Q0S._SS500_.jpg">
+    </div>
+    <div class="text">
+      <i>🌀 Sample Cuts Included:</i>
+<ol type="1">
+<li><i>🌀 Bounce</i></li>
+<li>Chas Carter</li>
+<li><i>🌀 Monk's Dream</i></li>
+<li><i>🌀 Schelle Intermezzo</i></li>
+<li>One for Helen</li>
+<li>African Flower</li>
+<li>G Waltz</li>
+<li><i>🌀 I Love You</i></li>
+<li><i>🌀 Izzy Baby</i></li>  
+<li>My Foolish Heart</li>
+</ol>
+    </div>
+
+  </div>
+  <i>Click the <span style="color:#900C3F"><b>Sample Player</span> Below</b> to Listen... and Then...</i>
+  <div class="container">
+    <div class=".buttonStyle">
+      <button class="button button1">Send an Email to Gary</button>
+    </div>
+    <button class="button button2">Ask Gary to Email Me</button> 
+    </div>
+  </div>
+</body>
+
+    <div class="music-container" id="music-container">
+      <div class="music-info">
+        <h4 id="title"> </h4>
+        <div class="progress-container" id="progress-container">
+          <div class="progress" id="progress"></div>
+        </div>
+      </div>
+      
+      <audio src="music/Bounce.mp3" id="audio"></audio>
+            <div class="img-container">
+        <img src="images/Bounce.jpg" alt="music-cover" id="cover" />
+      </div>
+
+      <div class="navigation"><span  style="color:#900C3F" style=text-align:right;><b>Sample<br>Player</b></span>
+        <button id="prev" class="action-btn">
+          <i class="fas fa-backward"></i>
+        </button>
+        <button id="play" class="action-btn action-btn-big">
+          <i class="fas fa-play"></i>
+        </button>
+        <button id="next" class="action-btn">
+          <i class="fas fa-forward"></i>
+        </button>
+      </div>
+          </div>
+          
+    <script src="script.js"></script>
+  </body>
+</html>
