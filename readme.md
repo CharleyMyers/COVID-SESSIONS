@@ -12,3 +12,7 @@ Creates a UI to play music stored in the "music folder" using the HTML5 audio AP
 - List of tracks on "the COVID Sessions"
 - Email Gary button
 - Have Gary Email me button
+
+## Project Public Link
+
+https://charleymyers.github.io/COVID-SESSIONS/
