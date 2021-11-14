@@ -1,6 +1,6 @@
 ## Music Player
 
-Create beautiful UI to play music stored in the "music folder" using the HTML5 audio API
+Creates a UI to play music stored in the "music folder" using the HTML5 audio API
 
 ## Project Specifications
 
@@ -8,3 +8,7 @@ Create beautiful UI to play music stored in the "music folder" using the HTML5 a
 - Add play and pause functionality
 - Switch songs
 - Progress bar
+- Picture of Gary Walters
+- List of tracks on "the COVID Sessions"
+- Email Gary button
+- Have Gary Email me button
